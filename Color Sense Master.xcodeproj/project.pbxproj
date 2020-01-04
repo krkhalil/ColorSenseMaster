@@ -1,0 +1,727 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FAC4604D22FC8DFA00D05DDC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FAC4604C22FC8DFA00D05DDC /* AppDelegate.m */; };
+		FAC4605022FC8DFA00D05DDC /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FAC4604F22FC8DFA00D05DDC /* ViewController.m */; };
+		FAC4605322FC8DFA00D05DDC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FAC4605122FC8DFA00D05DDC /* Main.storyboard */; };
+		FAC4605522FC8DFD00D05DDC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FAC4605422FC8DFD00D05DDC /* Assets.xcassets */; };
+		FAC4605822FC8DFD00D05DDC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FAC4605622FC8DFD00D05DDC /* LaunchScreen.storyboard */; };
+		FAC4605B22FC8DFD00D05DDC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FAC4605A22FC8DFD00D05DDC /* main.m */; };
+		FAC4606522FC8DFD00D05DDC /* Color_Sense_MasterTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FAC4606422FC8DFD00D05DDC /* Color_Sense_MasterTests.m */; };
+		FAC4607022FC8DFD00D05DDC /* Color_Sense_MasterUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = FAC4606F22FC8DFD00D05DDC /* Color_Sense_MasterUITests.m */; };
+		FAC4609E22FCB8B500D05DDC /* Play1VC.m in Sources */ = {isa = PBXBuildFile; fileRef = FAC4609D22FCB8B500D05DDC /* Play1VC.m */; };
+		FAC460A122FCBAB600D05DDC /* Play2VC.m in Sources */ = {isa = PBXBuildFile; fileRef = FAC460A022FCBAB600D05DDC /* Play2VC.m */; };
+		FAC460C922FCD08500D05DDC /* Artboard 24 copy 3.png in Resources */ = {isa = PBXBuildFile; fileRef = FAC460BA22FCD08300D05DDC /* Artboard 24 copy 3.png */; };
+		FAC460CA22FCD08500D05DDC /* launch.png in Resources */ = {isa = PBXBuildFile; fileRef = FAC460BB22FCD08300D05DDC /* launch.png */; };
+		FAC460CB22FCD08500D05DDC /* Artboard 24 copy 2.png in Resources */ = {isa = PBXBuildFile; fileRef = FAC460BC22FCD08300D05DDC /* Artboard 24 copy 2.png */; };
+		FAC460CC22FCD08500D05DDC /* bg1.png in Resources */ = {isa = PBXBuildFile; fileRef = FAC460BD22FCD08300D05DDC /* bg1.png */; };
+		FAC460CD22FCD08500D05DDC /* Artboard 24.png in Resources */ = {isa = PBXBuildFile; fileRef = FAC460BE22FCD08400D05DDC /* Artboard 24.png */; };
+		FAC460CE22FCD08500D05DDC /* bg.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FAC460BF22FCD08400D05DDC /* bg.jpg */; };
+		FAC460CF22FCD08500D05DDC /* Artboard 24 copy 5.png in Resources */ = {isa = PBXBuildFile; fileRef = FAC460C022FCD08400D05DDC /* Artboard 24 copy 5.png */; };
+		FAC460D122FCD08500D05DDC /* timer.png in Resources */ = {isa = PBXBuildFile; fileRef = FAC460C222FCD08400D05DDC /* timer.png */; };
+		FAC460D222FCD08500D05DDC /* logo.png in Resources */ = {isa = PBXBuildFile; fileRef = FAC460C322FCD08400D05DDC /* logo.png */; };
+		FAC460D322FCD08500D05DDC /* Artboard 24 copy 4.png in Resources */ = {isa = PBXBuildFile; fileRef = FAC460C422FCD08500D05DDC /* Artboard 24 copy 4.png */; };
+		FAC460D422FCD08500D05DDC /* Artboard 24 copy 7.png in Resources */ = {isa = PBXBuildFile; fileRef = FAC460C522FCD08500D05DDC /* Artboard 24 copy 7.png */; };
+		FAC460D522FCD08500D05DDC /* Artboard 24 copy 9.png in Resources */ = {isa = PBXBuildFile; fileRef = FAC460C622FCD08500D05DDC /* Artboard 24 copy 9.png */; };
+		FAC460D622FCD08500D05DDC /* Artboard 24 copy 6.png in Resources */ = {isa = PBXBuildFile; fileRef = FAC460C722FCD08500D05DDC /* Artboard 24 copy 6.png */; };
+		FAC460D722FCD08500D05DDC /* Artboard 24 copy.png in Resources */ = {isa = PBXBuildFile; fileRef = FAC460C822FCD08500D05DDC /* Artboard 24 copy.png */; };
+		FAC4612622FCD0E000D05DDC /* SFDraggableDialogView.m in Sources */ = {isa = PBXBuildFile; fileRef = FAC4611A22FCD0E000D05DDC /* SFDraggableDialogView.m */; };
+		FAC4612722FCD0E000D05DDC /* icCross@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FAC4611C22FCD0E000D05DDC /* icCross@2x.png */; };
+		FAC4612822FCD0E000D05DDC /* icArrow.png in Resources */ = {isa = PBXBuildFile; fileRef = FAC4611D22FCD0E000D05DDC /* icArrow.png */; };
+		FAC4612922FCD0E000D05DDC /* icArrowTop@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = FAC4611E22FCD0E000D05DDC /* icArrowTop@3x.png */; };
+		FAC4612A22FCD0E000D05DDC /* icArrowTop@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FAC4611F22FCD0E000D05DDC /* icArrowTop@2x.png */; };
+		FAC4612B22FCD0E000D05DDC /* icArrowTop.png in Resources */ = {isa = PBXBuildFile; fileRef = FAC4612022FCD0E000D05DDC /* icArrowTop.png */; };
+		FAC4612C22FCD0E000D05DDC /* icArrow@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = FAC4612122FCD0E000D05DDC /* icArrow@3x.png */; };
+		FAC4612D22FCD0E000D05DDC /* icArrow@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FAC4612222FCD0E000D05DDC /* icArrow@2x.png */; };
+		FAC4612E22FCD0E000D05DDC /* UIImage+ImageEffects.m in Sources */ = {isa = PBXBuildFile; fileRef = FAC4612422FCD0E000D05DDC /* UIImage+ImageEffects.m */; };
+		FAC4612F22FCD0E000D05DDC /* SFDraggableDialogView.xib in Resources */ = {isa = PBXBuildFile; fileRef = FAC4612522FCD0E000D05DDC /* SFDraggableDialogView.xib */; };
+		FAC4613122FCD23600D05DDC /* splash.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FAC4613022FCD23600D05DDC /* splash.jpg */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FAC4606122FC8DFD00D05DDC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FAC4604022FC8DFA00D05DDC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FAC4604722FC8DFA00D05DDC;
+			remoteInfo = "Color Sense Master";
+		};
+		FAC4606C22FC8DFD00D05DDC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FAC4604022FC8DFA00D05DDC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FAC4604722FC8DFA00D05DDC;
+			remoteInfo = "Color Sense Master";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FAC4604822FC8DFA00D05DDC /* Color Sense Master.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Color Sense Master.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FAC4604B22FC8DFA00D05DDC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		FAC4604C22FC8DFA00D05DDC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		FAC4604E22FC8DFA00D05DDC /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		FAC4604F22FC8DFA00D05DDC /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		FAC4605222FC8DFA00D05DDC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FAC4605422FC8DFD00D05DDC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FAC4605722FC8DFD00D05DDC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FAC4605922FC8DFD00D05DDC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FAC4605A22FC8DFD00D05DDC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FAC4606022FC8DFD00D05DDC /* Color Sense MasterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Color Sense MasterTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FAC4606422FC8DFD00D05DDC /* Color_Sense_MasterTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Color_Sense_MasterTests.m; sourceTree = "<group>"; };
+		FAC4606622FC8DFD00D05DDC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FAC4606B22FC8DFD00D05DDC /* Color Sense MasterUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Color Sense MasterUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FAC4606F22FC8DFD00D05DDC /* Color_Sense_MasterUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Color_Sense_MasterUITests.m; sourceTree = "<group>"; };
+		FAC4607122FC8DFD00D05DDC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FAC4609C22FCB8B500D05DDC /* Play1VC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Play1VC.h; sourceTree = "<group>"; };
+		FAC4609D22FCB8B500D05DDC /* Play1VC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Play1VC.m; sourceTree = "<group>"; };
+		FAC4609F22FCBAB600D05DDC /* Play2VC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Play2VC.h; sourceTree = "<group>"; };
+		FAC460A022FCBAB600D05DDC /* Play2VC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Play2VC.m; sourceTree = "<group>"; };
+		FAC460BA22FCD08300D05DDC /* Artboard 24 copy 3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Artboard 24 copy 3.png"; sourceTree = "<group>"; };
+		FAC460BB22FCD08300D05DDC /* launch.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = launch.png; sourceTree = "<group>"; };
+		FAC460BC22FCD08300D05DDC /* Artboard 24 copy 2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Artboard 24 copy 2.png"; sourceTree = "<group>"; };
+		FAC460BD22FCD08300D05DDC /* bg1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bg1.png; sourceTree = "<group>"; };
+		FAC460BE22FCD08400D05DDC /* Artboard 24.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Artboard 24.png"; sourceTree = "<group>"; };
+		FAC460BF22FCD08400D05DDC /* bg.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = bg.jpg; sourceTree = "<group>"; };
+		FAC460C022FCD08400D05DDC /* Artboard 24 copy 5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Artboard 24 copy 5.png"; sourceTree = "<group>"; };
+		FAC460C222FCD08400D05DDC /* timer.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = timer.png; sourceTree = "<group>"; };
+		FAC460C322FCD08400D05DDC /* logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo.png; sourceTree = "<group>"; };
+		FAC460C422FCD08500D05DDC /* Artboard 24 copy 4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Artboard 24 copy 4.png"; sourceTree = "<group>"; };
+		FAC460C522FCD08500D05DDC /* Artboard 24 copy 7.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Artboard 24 copy 7.png"; sourceTree = "<group>"; };
+		FAC460C622FCD08500D05DDC /* Artboard 24 copy 9.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Artboard 24 copy 9.png"; sourceTree = "<group>"; };
+		FAC460C722FCD08500D05DDC /* Artboard 24 copy 6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Artboard 24 copy 6.png"; sourceTree = "<group>"; };
+		FAC460C822FCD08500D05DDC /* Artboard 24 copy.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Artboard 24 copy.png"; sourceTree = "<group>"; };
+		FAC4611922FCD0E000D05DDC /* UIImage+ImageEffects.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+ImageEffects.h"; sourceTree = "<group>"; };
+		FAC4611A22FCD0E000D05DDC /* SFDraggableDialogView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SFDraggableDialogView.m; sourceTree = "<group>"; };
+		FAC4611C22FCD0E000D05DDC /* icCross@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icCross@2x.png"; sourceTree = "<group>"; };
+		FAC4611D22FCD0E000D05DDC /* icArrow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icArrow.png; sourceTree = "<group>"; };
+		FAC4611E22FCD0E000D05DDC /* icArrowTop@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icArrowTop@3x.png"; sourceTree = "<group>"; };
+		FAC4611F22FCD0E000D05DDC /* icArrowTop@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icArrowTop@2x.png"; sourceTree = "<group>"; };
+		FAC4612022FCD0E000D05DDC /* icArrowTop.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icArrowTop.png; sourceTree = "<group>"; };
+		FAC4612122FCD0E000D05DDC /* icArrow@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icArrow@3x.png"; sourceTree = "<group>"; };
+		FAC4612222FCD0E000D05DDC /* icArrow@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icArrow@2x.png"; sourceTree = "<group>"; };
+		FAC4612322FCD0E000D05DDC /* SFDraggableDialogView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SFDraggableDialogView.h; sourceTree = "<group>"; };
+		FAC4612422FCD0E000D05DDC /* UIImage+ImageEffects.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+ImageEffects.m"; sourceTree = "<group>"; };
+		FAC4612522FCD0E000D05DDC /* SFDraggableDialogView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SFDraggableDialogView.xib; sourceTree = "<group>"; };
+		FAC4613022FCD23600D05DDC /* splash.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = splash.jpg; path = ../../../../Downloads/assets/splash.jpg; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FAC4604522FC8DFA00D05DDC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAC4605D22FC8DFD00D05DDC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAC4606822FC8DFD00D05DDC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FAC4603F22FC8DFA00D05DDC = {
+			isa = PBXGroup;
+			children = (
+				FAC4604A22FC8DFA00D05DDC /* Color Sense Master */,
+				FAC4606322FC8DFD00D05DDC /* Color Sense MasterTests */,
+				FAC4606E22FC8DFD00D05DDC /* Color Sense MasterUITests */,
+				FAC4604922FC8DFA00D05DDC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FAC4604922FC8DFA00D05DDC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FAC4604822FC8DFA00D05DDC /* Color Sense Master.app */,
+				FAC4606022FC8DFD00D05DDC /* Color Sense MasterTests.xctest */,
+				FAC4606B22FC8DFD00D05DDC /* Color Sense MasterUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FAC4604A22FC8DFA00D05DDC /* Color Sense Master */ = {
+			isa = PBXGroup;
+			children = (
+				FAC4611822FCD0E000D05DDC /* SFDraggableDialogView */,
+				FAC4607D22FC985900D05DDC /* Images */,
+				FAC4604B22FC8DFA00D05DDC /* AppDelegate.h */,
+				FAC4604C22FC8DFA00D05DDC /* AppDelegate.m */,
+				FAC4604E22FC8DFA00D05DDC /* ViewController.h */,
+				FAC4604F22FC8DFA00D05DDC /* ViewController.m */,
+				FAC4605122FC8DFA00D05DDC /* Main.storyboard */,
+				FAC4605422FC8DFD00D05DDC /* Assets.xcassets */,
+				FAC4605622FC8DFD00D05DDC /* LaunchScreen.storyboard */,
+				FAC4605922FC8DFD00D05DDC /* Info.plist */,
+				FAC4605A22FC8DFD00D05DDC /* main.m */,
+				FAC4609C22FCB8B500D05DDC /* Play1VC.h */,
+				FAC4609D22FCB8B500D05DDC /* Play1VC.m */,
+				FAC4609F22FCBAB600D05DDC /* Play2VC.h */,
+				FAC460A022FCBAB600D05DDC /* Play2VC.m */,
+			);
+			path = "Color Sense Master";
+			sourceTree = "<group>";
+		};
+		FAC4606322FC8DFD00D05DDC /* Color Sense MasterTests */ = {
+			isa = PBXGroup;
+			children = (
+				FAC4606422FC8DFD00D05DDC /* Color_Sense_MasterTests.m */,
+				FAC4606622FC8DFD00D05DDC /* Info.plist */,
+			);
+			path = "Color Sense MasterTests";
+			sourceTree = "<group>";
+		};
+		FAC4606E22FC8DFD00D05DDC /* Color Sense MasterUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FAC4606F22FC8DFD00D05DDC /* Color_Sense_MasterUITests.m */,
+				FAC4607122FC8DFD00D05DDC /* Info.plist */,
+			);
+			path = "Color Sense MasterUITests";
+			sourceTree = "<group>";
+		};
+		FAC4607D22FC985900D05DDC /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				FAC4613022FCD23600D05DDC /* splash.jpg */,
+				FAC460BC22FCD08300D05DDC /* Artboard 24 copy 2.png */,
+				FAC460BA22FCD08300D05DDC /* Artboard 24 copy 3.png */,
+				FAC460C422FCD08500D05DDC /* Artboard 24 copy 4.png */,
+				FAC460C022FCD08400D05DDC /* Artboard 24 copy 5.png */,
+				FAC460C722FCD08500D05DDC /* Artboard 24 copy 6.png */,
+				FAC460C522FCD08500D05DDC /* Artboard 24 copy 7.png */,
+				FAC460C622FCD08500D05DDC /* Artboard 24 copy 9.png */,
+				FAC460C822FCD08500D05DDC /* Artboard 24 copy.png */,
+				FAC460BE22FCD08400D05DDC /* Artboard 24.png */,
+				FAC460BF22FCD08400D05DDC /* bg.jpg */,
+				FAC460BD22FCD08300D05DDC /* bg1.png */,
+				FAC460BB22FCD08300D05DDC /* launch.png */,
+				FAC460C322FCD08400D05DDC /* logo.png */,
+				FAC460C222FCD08400D05DDC /* timer.png */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+		FAC4611822FCD0E000D05DDC /* SFDraggableDialogView */ = {
+			isa = PBXGroup;
+			children = (
+				FAC4611922FCD0E000D05DDC /* UIImage+ImageEffects.h */,
+				FAC4611A22FCD0E000D05DDC /* SFDraggableDialogView.m */,
+				FAC4611B22FCD0E000D05DDC /* Resources */,
+				FAC4612322FCD0E000D05DDC /* SFDraggableDialogView.h */,
+				FAC4612422FCD0E000D05DDC /* UIImage+ImageEffects.m */,
+				FAC4612522FCD0E000D05DDC /* SFDraggableDialogView.xib */,
+			);
+			name = SFDraggableDialogView;
+			path = "SFDraggableDialogView-master/SFDraggableDialogView";
+			sourceTree = "<group>";
+		};
+		FAC4611B22FCD0E000D05DDC /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				FAC4611C22FCD0E000D05DDC /* icCross@2x.png */,
+				FAC4611D22FCD0E000D05DDC /* icArrow.png */,
+				FAC4611E22FCD0E000D05DDC /* icArrowTop@3x.png */,
+				FAC4611F22FCD0E000D05DDC /* icArrowTop@2x.png */,
+				FAC4612022FCD0E000D05DDC /* icArrowTop.png */,
+				FAC4612122FCD0E000D05DDC /* icArrow@3x.png */,
+				FAC4612222FCD0E000D05DDC /* icArrow@2x.png */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FAC4604722FC8DFA00D05DDC /* Color Sense Master */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FAC4607422FC8DFD00D05DDC /* Build configuration list for PBXNativeTarget "Color Sense Master" */;
+			buildPhases = (
+				FAC4604422FC8DFA00D05DDC /* Sources */,
+				FAC4604522FC8DFA00D05DDC /* Frameworks */,
+				FAC4604622FC8DFA00D05DDC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Color Sense Master";
+			productName = "Color Sense Master";
+			productReference = FAC4604822FC8DFA00D05DDC /* Color Sense Master.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FAC4605F22FC8DFD00D05DDC /* Color Sense MasterTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FAC4607722FC8DFD00D05DDC /* Build configuration list for PBXNativeTarget "Color Sense MasterTests" */;
+			buildPhases = (
+				FAC4605C22FC8DFD00D05DDC /* Sources */,
+				FAC4605D22FC8DFD00D05DDC /* Frameworks */,
+				FAC4605E22FC8DFD00D05DDC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FAC4606222FC8DFD00D05DDC /* PBXTargetDependency */,
+			);
+			name = "Color Sense MasterTests";
+			productName = "Color Sense MasterTests";
+			productReference = FAC4606022FC8DFD00D05DDC /* Color Sense MasterTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FAC4606A22FC8DFD00D05DDC /* Color Sense MasterUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FAC4607A22FC8DFD00D05DDC /* Build configuration list for PBXNativeTarget "Color Sense MasterUITests" */;
+			buildPhases = (
+				FAC4606722FC8DFD00D05DDC /* Sources */,
+				FAC4606822FC8DFD00D05DDC /* Frameworks */,
+				FAC4606922FC8DFD00D05DDC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FAC4606D22FC8DFD00D05DDC /* PBXTargetDependency */,
+			);
+			name = "Color Sense MasterUITests";
+			productName = "Color Sense MasterUITests";
+			productReference = FAC4606B22FC8DFD00D05DDC /* Color Sense MasterUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FAC4604022FC8DFA00D05DDC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = TP;
+				TargetAttributes = {
+					FAC4604722FC8DFA00D05DDC = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					FAC4605F22FC8DFD00D05DDC = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = FAC4604722FC8DFA00D05DDC;
+					};
+					FAC4606A22FC8DFD00D05DDC = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = FAC4604722FC8DFA00D05DDC;
+					};
+				};
+			};
+			buildConfigurationList = FAC4604322FC8DFA00D05DDC /* Build configuration list for PBXProject "Color Sense Master" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FAC4603F22FC8DFA00D05DDC;
+			productRefGroup = FAC4604922FC8DFA00D05DDC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FAC4604722FC8DFA00D05DDC /* Color Sense Master */,
+				FAC4605F22FC8DFD00D05DDC /* Color Sense MasterTests */,
+				FAC4606A22FC8DFD00D05DDC /* Color Sense MasterUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FAC4604622FC8DFA00D05DDC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAC4612A22FCD0E000D05DDC /* icArrowTop@2x.png in Resources */,
+				FAC460D222FCD08500D05DDC /* logo.png in Resources */,
+				FAC460C922FCD08500D05DDC /* Artboard 24 copy 3.png in Resources */,
+				FAC4612F22FCD0E000D05DDC /* SFDraggableDialogView.xib in Resources */,
+				FAC460D522FCD08500D05DDC /* Artboard 24 copy 9.png in Resources */,
+				FAC4612722FCD0E000D05DDC /* icCross@2x.png in Resources */,
+				FAC460CE22FCD08500D05DDC /* bg.jpg in Resources */,
+				FAC4612922FCD0E000D05DDC /* icArrowTop@3x.png in Resources */,
+				FAC4612822FCD0E000D05DDC /* icArrow.png in Resources */,
+				FAC4612B22FCD0E000D05DDC /* icArrowTop.png in Resources */,
+				FAC460CB22FCD08500D05DDC /* Artboard 24 copy 2.png in Resources */,
+				FAC460CA22FCD08500D05DDC /* launch.png in Resources */,
+				FAC4613122FCD23600D05DDC /* splash.jpg in Resources */,
+				FAC4612D22FCD0E000D05DDC /* icArrow@2x.png in Resources */,
+				FAC4612C22FCD0E000D05DDC /* icArrow@3x.png in Resources */,
+				FAC4605822FC8DFD00D05DDC /* LaunchScreen.storyboard in Resources */,
+				FAC460D122FCD08500D05DDC /* timer.png in Resources */,
+				FAC460CC22FCD08500D05DDC /* bg1.png in Resources */,
+				FAC460CF22FCD08500D05DDC /* Artboard 24 copy 5.png in Resources */,
+				FAC460D322FCD08500D05DDC /* Artboard 24 copy 4.png in Resources */,
+				FAC460D622FCD08500D05DDC /* Artboard 24 copy 6.png in Resources */,
+				FAC4605522FC8DFD00D05DDC /* Assets.xcassets in Resources */,
+				FAC460D722FCD08500D05DDC /* Artboard 24 copy.png in Resources */,
+				FAC460D422FCD08500D05DDC /* Artboard 24 copy 7.png in Resources */,
+				FAC4605322FC8DFA00D05DDC /* Main.storyboard in Resources */,
+				FAC460CD22FCD08500D05DDC /* Artboard 24.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAC4605E22FC8DFD00D05DDC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAC4606922FC8DFD00D05DDC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FAC4604422FC8DFA00D05DDC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAC460A122FCBAB600D05DDC /* Play2VC.m in Sources */,
+				FAC4609E22FCB8B500D05DDC /* Play1VC.m in Sources */,
+				FAC4612E22FCD0E000D05DDC /* UIImage+ImageEffects.m in Sources */,
+				FAC4605022FC8DFA00D05DDC /* ViewController.m in Sources */,
+				FAC4605B22FC8DFD00D05DDC /* main.m in Sources */,
+				FAC4604D22FC8DFA00D05DDC /* AppDelegate.m in Sources */,
+				FAC4612622FCD0E000D05DDC /* SFDraggableDialogView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAC4605C22FC8DFD00D05DDC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAC4606522FC8DFD00D05DDC /* Color_Sense_MasterTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAC4606722FC8DFD00D05DDC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAC4607022FC8DFD00D05DDC /* Color_Sense_MasterUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FAC4606222FC8DFD00D05DDC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FAC4604722FC8DFA00D05DDC /* Color Sense Master */;
+			targetProxy = FAC4606122FC8DFD00D05DDC /* PBXContainerItemProxy */;
+		};
+		FAC4606D22FC8DFD00D05DDC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FAC4604722FC8DFA00D05DDC /* Color Sense Master */;
+			targetProxy = FAC4606C22FC8DFD00D05DDC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FAC4605122FC8DFA00D05DDC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FAC4605222FC8DFA00D05DDC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FAC4605622FC8DFD00D05DDC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FAC4605722FC8DFD00D05DDC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FAC4607222FC8DFD00D05DDC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		FAC4607322FC8DFD00D05DDC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FAC4607522FC8DFD00D05DDC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = W62BCMM8X9;
+				INFOPLIST_FILE = "Color Sense Master/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.domojis.Color-Sense-Master";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		FAC4607622FC8DFD00D05DDC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = W62BCMM8X9;
+				INFOPLIST_FILE = "Color Sense Master/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.domojis.Color-Sense-Master";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		FAC4607822FC8DFD00D05DDC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = W62BCMM8X9;
+				INFOPLIST_FILE = "Color Sense MasterTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.domojis.Color-Sense-MasterTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Color Sense Master.app/Color Sense Master";
+			};
+			name = Debug;
+		};
+		FAC4607922FC8DFD00D05DDC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = W62BCMM8X9;
+				INFOPLIST_FILE = "Color Sense MasterTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.domojis.Color-Sense-MasterTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Color Sense Master.app/Color Sense Master";
+			};
+			name = Release;
+		};
+		FAC4607B22FC8DFD00D05DDC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = W62BCMM8X9;
+				INFOPLIST_FILE = "Color Sense MasterUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.domojis.Color-Sense-MasterUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Color Sense Master";
+			};
+			name = Debug;
+		};
+		FAC4607C22FC8DFD00D05DDC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = W62BCMM8X9;
+				INFOPLIST_FILE = "Color Sense MasterUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.domojis.Color-Sense-MasterUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Color Sense Master";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FAC4604322FC8DFA00D05DDC /* Build configuration list for PBXProject "Color Sense Master" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FAC4607222FC8DFD00D05DDC /* Debug */,
+				FAC4607322FC8DFD00D05DDC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FAC4607422FC8DFD00D05DDC /* Build configuration list for PBXNativeTarget "Color Sense Master" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FAC4607522FC8DFD00D05DDC /* Debug */,
+				FAC4607622FC8DFD00D05DDC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FAC4607722FC8DFD00D05DDC /* Build configuration list for PBXNativeTarget "Color Sense MasterTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FAC4607822FC8DFD00D05DDC /* Debug */,
+				FAC4607922FC8DFD00D05DDC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FAC4607A22FC8DFD00D05DDC /* Build configuration list for PBXNativeTarget "Color Sense MasterUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FAC4607B22FC8DFD00D05DDC /* Debug */,
+				FAC4607C22FC8DFD00D05DDC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FAC4604022FC8DFA00D05DDC /* Project object */;
+}
